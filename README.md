@@ -7,7 +7,7 @@ In this project, data collected from the accelerometer and gyroscope of the Sams
 
 ## Dataset
 
-[Human Activity Recognition Using Smartphones](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project).
+[Human Activity Recognition Using Smartphones](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project)
 
 This repository contains the following files:
 * README.md, this file, which provides an overview of the data set and how it was created.
