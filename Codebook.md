@@ -34,7 +34,7 @@ contains recorded features train data
 * trainingActivity <- test/y_train.txt : 7352 rows, 1 columns 
 contains train data of activities’code labels
 
-##Steps
+## Steps
 1. Merges the training and the test sets to create one data set
 * X (10299 rows, 561 columns) is created by merging trainingValues and testValues using rbind() function
 * Y (10299 rows, 1 column) is created by merging trainingActivity and testActivity using rbind() function
