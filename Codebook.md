@@ -61,7 +61,7 @@ contains train data of activities’code labels
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 * Final_data (180 rows, 88 columns) is created by sumarizing ExtMeanStd taking the means of each variable for each activity and each subject, after grouped by subject and activity.
-* Export FinalData into Final_data.txt file.
+* Export Final_data into Final_data.txt file.
 
-*Do a final check and look at final data.
+* Do a final check and look at final data.
 
