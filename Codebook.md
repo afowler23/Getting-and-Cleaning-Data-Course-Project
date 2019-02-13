@@ -36,10 +36,9 @@ contains train data of activities’code labels
 
 ## Steps
 1. Merges the training and the test sets to create one data set
-* X (10299 rows, 561 columns) is created by merging tVal and testVal using rbind() function
-* Y (10299 rows, 1 column) is created by merging tAct and testAct using rbind() function
-* Subject (10299 rows, 1 column) is created by merging tSub and testSub  using rbind() function
-* MergedData (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
+
+* MergedData (10299 rows, 563 column) is created by using the rbind() to cbind() both tSub, tVal, tAct and tAct and testSub, testVal, testAct.
+
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement
 * Keepcolumns (10299 rows, 88 columns) is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement
